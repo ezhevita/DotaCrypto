@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotaCrypto", "DotaCrypto\DotaCrypto.csproj", "{FC0227FA-4934-4435-BF1F-60C10568C7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotaCrypto.Benchmarks", "DotaCrypto.Benchmarks\DotaCrypto.Benchmarks.csproj", "{FFAD43E0-000F-4A9F-9288-DD5E8BCAB6CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC0227FA-4934-4435-BF1F-60C10568C7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0227FA-4934-4435-BF1F-60C10568C7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0227FA-4934-4435-BF1F-60C10568C7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0227FA-4934-4435-BF1F-60C10568C7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAD43E0-000F-4A9F-9288-DD5E8BCAB6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAD43E0-000F-4A9F-9288-DD5E8BCAB6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAD43E0-000F-4A9F-9288-DD5E8BCAB6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAD43E0-000F-4A9F-9288-DD5E8BCAB6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
