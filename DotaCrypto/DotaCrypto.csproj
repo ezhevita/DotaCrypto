@@ -7,8 +7,9 @@
 		<LangVersion>latest</LangVersion>
 		<NeutralLanguage>en</NeutralLanguage>
 		<Nullable>enable</Nullable>
+		<PackageId>$(Authors).DotaCrypto</PackageId>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/$(Authors)/DotaCrypt</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/$(Authors)/DotaCrypto</PackageProjectUrl>
 		<RepositoryBranch>main</RepositoryBranch>
 		<RepositoryType>Git</RepositoryType>
 		<RepositoryUrl>$(PackageProjectUrl).git</RepositoryUrl>
