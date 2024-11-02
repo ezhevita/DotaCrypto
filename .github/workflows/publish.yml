@@ -72,4 +72,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create NuGet release
-        run: dotnet nuget push "out/ezhevita.DotaCrypto.nupkg" -k "${{ secrets.MADNESS_NUGET_API_KEY }}" -s "https://api.nuget.org/v3/index.json"
+        run: dotnet nuget push "out/ezhevita.DotaCrypto.nupkg" -k "${{ secrets.NUGET_PUBLISH_API_KEY }}" -s "https://api.nuget.org/v3/index.json"
