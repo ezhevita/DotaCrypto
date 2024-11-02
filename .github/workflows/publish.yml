@@ -20,17 +20,25 @@ jobs:
       - name: Pack
         run: dotnet pack DotaCrypto -c Release -o "out" -p:ContinuousIntegrationBuild=true --nologo
 
+      - name: Rename artifacts
+        shell: sh
+        run: |
+          set -eu
+
+          mv out/DotaCrypto.*.nupkg "out/ezhevita.DotaCrypto.nupkg"
+          mv out/DotaCrypto.*.snupkg "out/ezhevita.DotaCrypto.snupkg"
+
       - name: Upload nupkg
         uses: actions/upload-artifact@v4.4.3
         with:
           name: ezhevita.DotaCrypto.nupkg
-          path: out/DotaCrypto*.nupkg
+          path: out/ezhevita.DotaCrypto.nupkg
 
       - name: Upload snupkg
         uses: actions/upload-artifact@v4.4.3
         with:
           name: ezhevita.DotaCrypto.snupkg
-          path: out/DotaCrypto*.snupkg
+          path: out/ezhevita.DotaCrypto.snupkg
 
   release:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
